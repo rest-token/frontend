@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    background: rgba(242, 255, 214, 0.52);
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 30px;
+}
+
+.nav--logo{
+    max-width: 100px;
+    width: 100px
+}
+
+.nav--menu{
+    display: flex;
+    gap: 20px;
+}
+
+@media(max-width: 800px) {
+}

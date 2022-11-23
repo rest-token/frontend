@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  background: rgba(242, 255, 214, 0.52);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app{
+  overflow: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+section{
+  padding: 20px;
+}
+
+.btn{
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 3px black;
+}
+
+.btn--default{
+  background-color: #216B83;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+main{
+  height: 100vh;
+  padding-top: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.title{
+  padding: 50px;
+  text-align: center;
+  font-size: 40px;
+  justify-items: center;
+}
+
+.group--list{
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.group--box{
+  background: #BCF8DE;
+  box-shadow: 13px 26px 32px rgba(188, 248, 222, 0.42);
+  border-radius: 34px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.group--box--btn--bg{
+  background-color: #216B83;
+  box-shadow: 13px 26px 32px #216B83;
+}
+
+.group--box--image{
+  width: 75%;
+  margin-top: -200px;
+}
+
+.group--box--caption{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.group--box--description{
+
+}
+
+@media(max-width: 800px) {
+  .group--list{
+    flex-direction: column;
   }
 }
