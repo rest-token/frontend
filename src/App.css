@@ -93,7 +93,7 @@ main{
 @media(max-width: 800px) {
   .group--list{
     flex-direction: column;
-    gap: 150px;
+    gap: 180px;
     align-items: center;
   }
 }
