@@ -5,11 +5,12 @@ import Sale from "./pages/Sale";
 import Navbar from "./components/Navbar";
 
 const url = {
+  docs: "https://docs.resttoken.app",
+  pitchDeck: "",
+  whitepaper: "",
   pages: {
     home: "/",
     sale: "sale",
-    docs: "https://docs.resttoken.app",
-    pitchDeck: ""
   }
 }
 
