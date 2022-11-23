@@ -9,7 +9,7 @@ function Restmode(props) {
             <h2 className="title">Restmodes</h2>
             <div className="group--list">
                 <div className="group--box group--box--btn--bg">
-                    <img src={phoneLeft} alt="..." className="group--box--image"  />
+                    <img src={phoneLeft} alt="..." className="group--box--image group--box--image--left"  />
                     <div className="group--box--text">
                         <div className="group--box--caption">Rest - (Rest Phase)</div>
                         <div className="group--box--description">Put your phone in Sleep to earn $EASE</div>
