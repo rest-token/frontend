@@ -13,7 +13,7 @@ function Hero(props) {
             </div>
             <div className="hero--right">
                 
-                <video className="hero--video">
+                <video className="hero--video" autoPlay loop>
                     <source src={restVideo} type="video/webm" />
                     <source src={restVideo} type="video/mp4" />
                     Sorry, your browser doesn't support videos.
