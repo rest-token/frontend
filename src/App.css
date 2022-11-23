@@ -12,7 +12,9 @@ body{
 }
 
 section{
-  padding: 20px;
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .btn{
@@ -91,7 +93,7 @@ main{
 @media(max-width: 800px) {
   .group--list{
     flex-direction: column;
-    gap: 50px;
+    gap: 150px;
     align-items: center;
   }
 }

@@ -5,7 +5,7 @@ import "./Restmode.css";
 
 function Restmode() {
     return (
-        <section className="restmode">
+        <section className="restmode" loading="lazy">
             <h2 className="title">Restmodes</h2>
             <div className="group--list">
                 <div className="group--box group--box--btn--bg">
