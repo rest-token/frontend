@@ -1,6 +1,7 @@
 .hero{
     display: flex;
     gap: 50px;
+    padding: 100px;
 }
 
 .hero--left{
