@@ -51,7 +51,7 @@ main{
   flex-direction: row;
   gap: 50px;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .group--box{
@@ -73,6 +73,10 @@ main{
   margin-top: -200px;
 }
 
+.group--box--text{
+  padding: 20px;
+}
+
 .group--box--caption{
   font-size: 20px;
   font-weight: 700;
@@ -80,7 +84,8 @@ main{
 }
 
 .group--box--description{
-
+  color: white;
+  padding-top: 30px;
 }
 
 @media(max-width: 800px) {
