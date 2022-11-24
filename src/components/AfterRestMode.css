@@ -52,8 +52,9 @@
         margin-left: -50px;
     }
     .after--rest--mode::after{
-        position: inherit;
-        margin-left: 85%;
-        margin-top: -800px;
+        position: static;
+        margin-left: 250px;
+        margin-top: -2200px;
+        margin-bottom: 1320px;
     }
 }
