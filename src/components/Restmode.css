@@ -13,3 +13,16 @@
     width: 100px;
     position: absolute;
 }
+
+.group--box::before{
+    background-image: url('../images/coins.png');
+    background-size: 75px 75px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 75px; 
+    height: 75px;
+    content:"";
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 50px;
+}
