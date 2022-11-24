@@ -1,0 +1,54 @@
+.after--rest--mode::before{
+    background-image: url('../images/sample-gif\ 2.png');
+    background-size: 100px 250px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px; 
+    height: 250px;
+    content:"";
+    position: absolute;
+    left: 0;
+    top: -150px;
+}
+
+.after--rest--mode::after{
+    background-image: url('../images/sample-gif\ 3.png');
+    background-size: 100px 250px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px; 
+    height: 250px;
+    content:"";
+    position: absolute;
+    right: 0;
+    top: -150px;
+}
+
+.after--rest--mode{
+    position: relative;
+    top: 100px;
+}
+
+.mobile--list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.screen{
+    width: 300px;
+}
+
+@media(max-width: 800px){
+    .mobile--list{
+        flex-direction: column;
+        gap: 50px
+    }
+    .after--rest--mode{
+        position: inherit;
+    }
+    .after--rest--mode::before{
+        position: relative;
+        left: 0;
+    }
+}
