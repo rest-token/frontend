@@ -3,16 +3,16 @@
     flex-direction: row;
     background: rgba(242, 255, 214, 0.52);
     justify-content: space-between;
+    padding: 20px;
     position: fixed;
     top: 0;
     width: 100vw;
-    padding: 30px;
     z-index: 100;
 }
 
 .nav--logo{
     max-width: 100px;
-    width: 100px
+    width: 100px;
 }
 
 .nav--menu{
@@ -20,5 +20,31 @@
     gap: 20px;
 }
 
+.nav .icon{
+    display: none;
+}
+
 @media(max-width: 800px) {
+    .nav--menu {
+        display: none;
+    }
+
+    .nav .icon {
+      display: block;
+      width: 100px;
+      margin-top: -20px;
+    }
+
+    .nav--menu .responsive{
+        position: relative;
+    }
+
+    .nav .responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav--menu .responsive{
+        display: inline-block;
+    }
 }
