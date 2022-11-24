@@ -8,10 +8,6 @@
     margin-top: -165px;
 }
 
-.restmode--whitepaper{
-    text-align: center;
-}
-
 .group--box--image--left::before{
     content:url('../images/coins.png');
     width: 100px;

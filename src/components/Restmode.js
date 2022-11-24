@@ -30,9 +30,6 @@ function Restmode(props) {
                     </div>
                 </div>
             </div>
-            <div className="restmode--whitepaper">
-                <a href={props.url.whitepaper} className="btn btn--default" rel="noreferrer" target="_blank">Whitepaper</a>
-            </div>
         </section>
     )
 }
