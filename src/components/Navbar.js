@@ -10,7 +10,7 @@ function Navbar(props) {
             </Link>
             <div className="nav--menu">
                 <Link to={props.url.pages.sale} className="btn btn--default">Pre-Sale</Link>
-                <a href={ props.url.pages.docs } rel="noreferrer" target="_blank" className="btn btn--default" >Documentation</a>
+                <a href={ props.url.docs } rel="noreferrer" target="_blank" className="btn btn--default" >Documentation</a>
             </div>
         </nav>
     )
