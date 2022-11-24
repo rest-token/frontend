@@ -49,6 +49,11 @@
     }
     .after--rest--mode::before{
         position: relative;
-        left: 0;
+        left: -50px;
+    }
+    .after--rest--mode::after{
+        position: relative;
+        right: -250px;
+        top: -1700px;
     }
 }
