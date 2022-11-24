@@ -48,12 +48,12 @@
         position: inherit;
     }
     .after--rest--mode::before{
-        position: relative;
-        left: -50px;
+        position: inherit;
+        margin-left: -50px;
     }
     .after--rest--mode::after{
-        position: relative;
-        right: -250px;
-        top: -1700px;
+        position: inherit;
+        margin-left: 85%;
+        margin-top: -800px;
     }
 }
