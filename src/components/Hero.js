@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Hero.css";
 import restEase from "../images/rest = ease.png";
-import restVideo from "../videos/rest.mp4";
+import restVideo from "../videos/ezgif.com-gif-maker.gif";
 
 function Hero(props) {
     return (
@@ -12,12 +12,7 @@ function Hero(props) {
                 <Link to={props.url.pages.pitchDeck} className="btn btn--default">Pitch Deck</Link>
             </div>
             <div className="hero--right">
-                
-                <video className="hero--video" autoPlay loop>
-                    <source src={restVideo} type="video/webm" />
-                    <source src={restVideo} type="video/mp4" />
-                    Sorry, your browser doesn't support videos.
-                </video>
+                <img src={restVideo} alt="..." className="hero--video" />
             </div>
         </section>
     )
