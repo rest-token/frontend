@@ -39,6 +39,18 @@
     width: 300px;
 }
 
+.description{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.download--app{
+    text-align: center;
+}
+
 @media(max-width: 800px){
     .mobile--list{
         flex-direction: column;

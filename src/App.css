@@ -22,8 +22,9 @@ section{
   font-size: 16px;
   font-weight: bold;
   border-radius: 10px;
-  border: none;
+  border: 1px solid black;
   text-decoration: none;
+  color: black;
 }
 
 .btn:hover{
@@ -34,6 +35,13 @@ section{
 .btn--default{
   background-color: #216B83;
   color: white;
+  border: none;
+  transition: all .5s ease-out;
+}
+
+.btn--default:hover{
+  background-color: white;
+  color: #216B83;
 }
 
 main{
