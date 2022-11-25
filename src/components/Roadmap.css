@@ -11,3 +11,13 @@
 .roadmap--image{
     width: 100%;
 }
+
+@media(max-width: 800px){
+    .roadmap--image{
+        width: 100%;
+    }
+    .roadmap{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
