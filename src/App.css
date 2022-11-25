@@ -48,6 +48,7 @@ section{
   background-color: #FFFFFF;
   border: none;
   transition: all .5s ease-out;
+  box-shadow: 1px 1px 3px black;
 }
 
 .btn--light:hover{
