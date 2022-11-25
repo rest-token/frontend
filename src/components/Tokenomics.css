@@ -1,0 +1,31 @@
+.tokenomics p{
+    font-size: 24px;
+    padding-inline: 100px;
+    text-align: center;
+}
+
+.token--data--list{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+@media(max-width: 800px){
+    .tokenomics p{
+        font-size: 18px;
+        padding: 0;
+    }
+    .token--data--list{
+        font-size: 18px;
+        padding: 0;
+        line-height: 24px;
+        white-space: nowrap;
+    }
+    .tokenomics img{
+        width: 100%;
+        padding: 0;
+    }
+}

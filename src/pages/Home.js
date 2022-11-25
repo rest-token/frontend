@@ -5,6 +5,8 @@ import Roadmap from "../components/Roadmap";
 import DownloadApp from "../components/DownloadApp";
 import Featured from "../components/Featured";
 import Partners from "../components/Partners";
+import Tokenomics from "../components/Tokenomics";
+import Contact from "../components/Contact";
 
 function Home(props) {
     return (
@@ -16,6 +18,8 @@ function Home(props) {
             <DownloadApp />
             <Featured />
             <Partners />
+            <Tokenomics />
+            <Contact />
         </>
     )
 }

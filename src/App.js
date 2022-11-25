@@ -11,6 +11,10 @@ const url = {
   pages: {
     home: "/",
     sale: "sale",
+  },
+  social: {
+    medium: "",
+    twitter: ""
   }
 }
 
