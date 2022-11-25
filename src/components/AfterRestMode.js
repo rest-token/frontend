@@ -1,6 +1,6 @@
 import screen1 from "../images/screen 1.png";
 import screen2 from "../images/screen 2.png";
-import screen3 from "../images/screen 2.png";
+import screen3 from "../images/screen 3.png";
 import "./AfterRestMode.css";
 import Modal from "react-modal";
 import { useState } from "react";

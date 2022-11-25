@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import favicon from "./images/Rest-Logo-b2.png";
+import favicon from "./images/logo.png";
 
 document.title = "Rest Token";
 

@@ -23,8 +23,10 @@ function closeMenu() {
     
     for (let i = 0; i < children.length; i++) {
         children[i].addEventListener('click', function () {
-            menu.style.display = 'none';
-            menu.classList.remove('responsive');
+            if (menu.className !== 'nav--menu'){
+                menu.style.display = 'none';
+                menu.classList.remove('responsive');
+            }
         });
     }
 }
