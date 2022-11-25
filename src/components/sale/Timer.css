@@ -1,0 +1,42 @@
+.timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.timer div p{
+    font-weight: 700;
+    color: #216B83;
+    text-align: center;
+}
+
+.timer .timer--box{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #216B83;
+    text-align: center;
+}
+
+.timer .timer--box h1{
+    color: white;
+    font-size: 32px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.timer .timer--box p{
+    color: white;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media(max-width: 800px){
+    .timer{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
