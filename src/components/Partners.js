@@ -1,9 +1,9 @@
-import "./Featured.css";
+import "./Partners.css";
 
-function Featured(){
+function Partners() {
     return (
-        <section className="featured">
-            <h2 className="title">As Featured In</h2>
+        <section className="partners">
+            <h2 className="title">Partners</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a sagittis velit, sed mattis eros. Vestibulum eu lobortis libero. Quisque faucibus nibh sapien, id ultricies ligula mollis sagittis. Cras ultrices congue turpis. Donec</p>
             <div className="group--list">
                 <div className="group--box group--box--light"></div>
@@ -14,4 +14,4 @@ function Featured(){
     )
 }
 
-export default Featured;
+export default Partners;

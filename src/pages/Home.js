@@ -4,6 +4,7 @@ import Restmode from "../components/Restmode";
 import Roadmap from "../components/Roadmap";
 import DownloadApp from "../components/DownloadApp";
 import Featured from "../components/Featured";
+import Partners from "../components/Partners";
 
 function Home(props) {
     return (
@@ -14,6 +15,7 @@ function Home(props) {
             <Roadmap />
             <DownloadApp />
             <Featured />
+            <Partners />
         </>
     )
 }
