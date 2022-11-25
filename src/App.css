@@ -65,7 +65,30 @@ main{
   text-align: center;
   font-size: 40px;
   justify-items: center;
+  overflow:visible;
 }
+
+/* .title::before{
+  background-image: url('./images/balls\ 2.png');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  content: "";
+  margin-bottom: -75px;
+}
+
+.title::after{
+  background-image: url('./images/balls\ 1.png');
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  content: "";
+  margin-bottom: -75px;
+} */
 
 .group--list{
   display: flex;
@@ -116,4 +139,27 @@ main{
     gap: 200px;
     align-items: center;
   }
+
+  .title{
+    padding: 0;
+  }
+
+  /* .title::before{
+    background-size: 150px 100px;
+    width: 150px;
+    height: 100px;
+    margin-bottom: -75px;
+    margin-left: -125px;
+    margin-right: 125px;
+  }
+
+  .title::after{
+    background-size: 150px 100px;
+    width: 150px;
+    height: 100px;
+    margin-top: -80px;
+    margin-bottom: 50px;
+    margin-right: -100px;
+    margin-left: 175px;
+  } */
 }
