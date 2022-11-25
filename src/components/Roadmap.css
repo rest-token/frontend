@@ -1,4 +1,13 @@
 .roadmap::before{
-    background-image: url('../images/sample-gif\ 4.png');
-    background-size: 100px 100px;
+    background-image: url('../images/sample-gif 4.png');
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    content: "";
+}
+
+.roadmap--image{
+    width: 100%;
 }
