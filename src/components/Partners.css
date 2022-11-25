@@ -4,4 +4,12 @@
     line-height: 29px;
     padding-inline: 100px;
     color: #000000;
+    text-align: center;
+}
+
+@media(max-width: 800px){
+    .partners p{
+        padding: 0;
+        font-size: 18px;
+    }
 }

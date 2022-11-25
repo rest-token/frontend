@@ -30,3 +30,9 @@
     margin-left: 125px;
     margin-top: 50px;
 }
+
+@media(max-width: 800px){
+    .restmode .group--list{
+        gap: 200px;
+    }
+}

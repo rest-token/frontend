@@ -141,7 +141,7 @@ main{
 @media(max-width: 800px) {
   .group--list{
     flex-direction: column;
-    gap: 200px;
+    gap: 50px;
     align-items: center;
   }
 

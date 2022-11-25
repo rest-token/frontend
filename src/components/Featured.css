@@ -4,4 +4,12 @@
     font-weight: 400;
     line-height: 29px;
     color: #000000;
+    text-align: center;
+}
+
+@media(max-width: 800px){
+    .featured p{
+        padding: 0;
+        font-size: 18px;
+    }
 }
