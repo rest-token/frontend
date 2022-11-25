@@ -44,6 +44,17 @@ section{
   color: #216B83;
 }
 
+.btn--light{
+  background-color: #FFFFFF;
+  border: none;
+  transition: all .5s ease-out;
+}
+
+.btn--light:hover{
+  background-color: black;
+  color: #FFFFFF;
+}
+
 main{
   height: 100vh;
   padding-top: 150px;
