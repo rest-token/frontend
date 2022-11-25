@@ -1,6 +1,6 @@
-import phoneRight from "../images/3d-smartphone-with-protection-lock-code-password-correct-mark-3d-render-with-clippding-path 1.png";
-import phoneLeft from "../images/3d-smartphone-with-protection-lock-code-password-correct-mark-3d-render-with-clipping-path 1.png";
-import phoneMiddle from "../images/3d-smartphone-with-protection-lock-code-password-correct-mark-3d-render-with-clipping-path2 1.png";
+import phoneRight from "../../images/3d-smartphone-with-protection-lock-code-password-correct-mark-3d-render-with-clippding-path 1.png";
+import phoneLeft from "../../images/3d-smartphone-with-protection-lock-code-password-correct-mark-3d-render-with-clipping-path 1.png";
+import phoneMiddle from "../../images/3d-smartphone-with-protection-lock-code-password-correct-mark-3d-render-with-clipping-path2 1.png";
 import "./Restmode.css";
 
 function Restmode(props) {

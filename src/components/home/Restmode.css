@@ -9,7 +9,7 @@
 }
 
 .group--box--image--left::before{
-    content:url('../images/coins.png');
+    content:url('../../images/coins.png');
     width: 100px;
     position: absolute;
 }
@@ -19,7 +19,7 @@
 }
 
 .restmode .group--box::before{
-    background-image: url('../images/coins.png');
+    background-image: url('../../images/coins.png');
     background-size: 75px 75px;
     background-repeat: no-repeat;
     display: inline-block;

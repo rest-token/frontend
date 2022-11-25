@@ -5,9 +5,6 @@ import Sale from "./pages/Sale";
 import Navbar from "./components/Navbar";
 
 const url = {
-  docs: "https://docs.resttoken.app",
-  pitchDeck: "",
-  whitepaper: "",
   pages: {
     home: "/",
     sale: "sale",
@@ -15,7 +12,10 @@ const url = {
   social: {
     medium: "",
     twitter: ""
-  }
+  },
+  docs: "https://docs.resttoken.app",
+  pitchDeck: "",
+  whitepaper: "",
 }
 
 function App() {

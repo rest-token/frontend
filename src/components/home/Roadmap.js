@@ -1,5 +1,5 @@
 import "./Roadmap.css";
-import roadmap from "../images/roadmap.png";
+import roadmap from "../../images/roadmap.png";
 
 function Roadmap() {
     return (

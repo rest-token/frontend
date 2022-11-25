@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Hero.css";
-import restEase from "../images/rest = ease.png";
-import restVideo from "../videos/ezgif.com-gif-maker.gif";
+import restEase from "../../images/rest = ease.png";
+import restVideo from "../../videos/ezgif.com-gif-maker.gif";
 
 function Hero(props) {
     return (

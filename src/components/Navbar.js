@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../images/logo.png";
 import menu from "../images/menu.png";
@@ -36,13 +36,15 @@ setTimeout(() => {
 }, 2000);
 
 function Navbar(props) {
+    const location = useLocation();
+    const route = location.pathname;
     return (
         <nav className="nav">
             <Link to={props.url.pages.home}>
                 <img src={logo} className="nav--logo" alt="logo" />
             </Link>
             <div className="nav--menu" id="nav--menu">
-                <Link to={props.url.pages.sale} className="btn btn--default">Pre-Sale</Link>
+                {route === '/sale/' && <Link to={props.url.pages.sale} className="btn btn--default">Pre-Sale</Link>}
                 <a href={ props.url.docs } rel="noreferrer" target="_blank" className="btn btn--light" >Documentation</a>
             </div>
             <img src={menu} alt="..." className="icon" id="menu--icon" onClick={myFunction} />

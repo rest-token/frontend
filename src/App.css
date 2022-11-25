@@ -25,6 +25,7 @@ section{
   border: 1px solid black;
   text-decoration: none;
   color: black;
+  margin-inline: 10px;
 }
 
 .btn:hover{
@@ -137,6 +138,15 @@ main{
 .group--box--description{
   color: white;
   padding-top: 30px;
+}
+
+.jumbotron{
+  border: 1px solid #1E6075;
+  border-radius: 25px;
+  width: 100%;
+  padding: 50px;
+  background-color: #BCF8DE
+  ;
 }
 
 @media(max-width: 800px) {

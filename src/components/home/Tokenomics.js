@@ -1,5 +1,5 @@
 import "./Tokenomics.css";
-import tokenomics from "../images/TOK@4x 1.png";
+import tokenomics from "../../images/TOK@4x 1.png";
 
 function Tokenomics() {
     return (

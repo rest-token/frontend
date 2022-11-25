@@ -1,5 +1,5 @@
 .after--rest--mode::before{
-    background-image: url('../images/sample-gif\ 2.png');
+    background-image: url('../../images/sample-gif\ 2.png');
     background-size: 100px 250px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -12,7 +12,7 @@
 }
 
 .after--rest--mode::after{
-    background-image: url('../images/sample-gif\ 3.png');
+    background-image: url('../../images/sample-gif\ 3.png');
     background-size: 100px 250px;
     background-repeat: no-repeat;
     display: inline-block;

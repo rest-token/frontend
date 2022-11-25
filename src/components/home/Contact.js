@@ -1,5 +1,5 @@
 import "./Contact.css";
-import contactImage from "../images/pose03_male 1.png";
+import contactImage from "../../images/pose03_male 1.png";
 
 function Contact() {
     return (

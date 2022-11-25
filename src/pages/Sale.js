@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import One from "../components/sale/One"
 
-function Sale() {
+function Sale(props) {
     return (
         <>
-            <h1>Sale Page</h1>
-            <Link to="/">Home Page</Link>
+            <Navbar url={props.url} />
+            <One url={props.url} />
         </>
     )
 }

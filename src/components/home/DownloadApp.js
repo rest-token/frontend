@@ -1,5 +1,5 @@
 import "./DownloadApp.css";
-import downloadScreen from "../images/download screen 1.png";
+import downloadScreen from "../../images/download screen 1.png";
 import Modal from "react-modal";
 import { useState } from "react";
 
