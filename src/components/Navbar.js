@@ -2,9 +2,20 @@ import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../images/logo.png";
 import menu from "../images/menu.png";
+import { useState } from "react";
+import $ from "jquery";
 
-function myFunction() {
-    var x = document.getElementById("nav--menu");
+function Navbar(props) {
+    const [menuOpen, setMenuOpen] = useState(false);
+    const location = useLocation();
+    const route = location.pathname;
+    
+    function setMenuMode() {
+        setMenuOpen(prevMenu => !prevMenu);
+    }
+
+    function openCloseMenu() {
+        var x = document.getElementById("nav--menu");
         if (x.className === "nav--menu") {
             x.classList.add('responsive')
             x.style.position = 'absolute';
@@ -15,39 +26,31 @@ function myFunction() {
             x.classList.remove('responsive')
             x.style.display = 'none';
         }
-}
-
-function closeMenu() {
-    var menu = document.getElementById("nav--menu");
-    var children = menu.childNodes;
-    
-    for (let i = 0; i < children.length; i++) {
-        children[i].addEventListener('click', function () {
-            if (menu.className !== 'nav--menu'){
-                menu.style.display = 'none';
-                menu.classList.remove('responsive');
-            }
-        });
     }
-}
 
-setTimeout(() => {
-    closeMenu()
-}, 2000);
+    function handleMenu() {
+        setMenuMode();
+        openCloseMenu();
+    }
 
-function Navbar(props) {
-    const location = useLocation();
-    const route = location.pathname;
+    function checkBodyClickForMenu() {
+        $(".menu--link").click(() => {
+            handleMenu()
+        })
+    }
+
+    checkBodyClickForMenu()
+
     return (
         <nav className="nav">
             <Link to={props.url.pages.home}>
                 <img src={logo} className="nav--logo" alt="logo" />
             </Link>
             <div className="nav--menu" id="nav--menu">
-                {route !== '/sale' && <Link to={props.url.pages.sale} className="btn btn--default">Pre-Sale</Link>}
-                <a href={ props.url.docs } rel="noreferrer" target="_blank" className="btn btn--light" >Documentation</a>
+                {route !== '/sale' && <Link to={props.url.pages.sale} className="btn btn--default menu--link">Pre-Sale</Link>}
+                <a href={ props.url.docs } rel="noreferrer" target="_blank" className="btn btn--light menu--link" >Documentation</a>
             </div>
-            <img src={menu} alt="..." className="icon" id="menu--icon" onClick={myFunction} />
+            <img src={menu} alt="..." className="icon" id="menu--icon" onClick={handleMenu} />
         </nav>
     )
 }

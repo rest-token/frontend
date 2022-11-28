@@ -1,0 +1,89 @@
+.info .jumbotron p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    padding-inline: 100px;
+}
+
+.info .jumbotron ul{
+    list-style: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    justify-content: center;
+}
+
+.info .token--details{
+    width: 100%;
+    padding: 50px;
+    background-color: #216B83;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info .token--details--box{
+    background-color: #5693A79E;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 15px;
+    flex: 30%;
+}
+
+.token--details--box--heading{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    /* text-align: center; */
+
+    color: #FFFFFF;
+}
+
+.token--details--box--desc{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BCF8DE;
+}
+
+
+.token--details--box--heading{
+    
+}
+
+@media(max-width: 800px) {
+    .info{
+        padding: 20px;
+    }
+    .info .jumbotron p{
+        padding-inline: 0;
+        font-size: 18px;
+    }
+    .info .token--details{
+        padding: 0;
+    }
+    .info .jumbotron ul{
+        font-size: 16px;
+        white-space: nowrap;
+    }
+    .info .jumbotron{
+        padding: 10px;
+    }
+    .info .token--details{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .info .token--details--box{
+        flex: 100%;
+    }
+}

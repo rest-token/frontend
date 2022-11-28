@@ -149,6 +149,14 @@ main{
   ;
 }
 
+.separate{
+  width: 100%;
+  background-color: #216B83;
+  border: 1px solid #1E6075;
+  border-radius: 55px;
+  height: 18px;
+}
+
 @media(max-width: 800px) {
   .group--list{
     flex-direction: column;

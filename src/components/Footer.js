@@ -1,7 +1,7 @@
-import "./Contact.css";
-import contactImage from "../../images/pose03_male 1.png";
+import "./Footer.css";
+import contactImage from "../images/pose03_male 1.png";
 
-function Contact() {
+function Footer() {
     return (
         <section className="contact">
             <div className="left">
@@ -22,4 +22,4 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default Footer;

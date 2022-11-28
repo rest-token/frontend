@@ -6,7 +6,7 @@ import DownloadApp from "../components/home/DownloadApp";
 import Featured from "../components/home/Featured";
 import Partners from "../components/home/Partners";
 import Tokenomics from "../components/home/Tokenomics";
-import Contact from "../components/home/Contact";
+import Footer from "../components/Footer";
 
 function Home(props) {
     return (
@@ -19,7 +19,7 @@ function Home(props) {
             <Featured />
             <Partners />
             <Tokenomics />
-            <Contact />
+            <Footer />
         </>
     )
 }

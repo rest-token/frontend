@@ -4,7 +4,7 @@
     background: rgba(242, 255, 214, 0.52);
     justify-content: space-between;
     padding: 20px;
-    position: fixed;
+    position: fixed !important;
     top: 0;
     width: 100vw;
     z-index: 100;
@@ -25,6 +25,9 @@
 }
 
 @media(max-width: 800px) {
+    .nav{
+        position: fixed;
+    }
     .nav--menu {
         display: none;
     }

@@ -1,13 +1,15 @@
-import Navbar from "../components/Navbar";
+import Info from "../components/sale/Info";
 import One from "../components/sale/One"
 import Timer from "../components/sale/Timer";
+import Footer from "../components/Footer";
 
 function Sale(props) {
     return (
         <>
-            <Navbar url={props.url} />
             <One url={props.url} />
             <Timer />
+            <Info />
+            <Footer />
         </>
     )
 }
