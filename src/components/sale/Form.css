@@ -1,5 +1,9 @@
 .form{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .form input{
@@ -8,4 +12,38 @@
     border-radius: 25px;
     border: none;
     width: 50%;
+    outline: none;
+}
+
+
+.polygon--box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.polygon--up{
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 15px solid #216B83;
+}
+
+.polygon--down{
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 15px solid #216B83;
+}
+
+@media(max-width: 800px){
+    .form{
+        padding: 0;
+        padding-block: 20px;
+    }
+    .form input{
+        width: 100%;
+    }
 }

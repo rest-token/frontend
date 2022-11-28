@@ -1,3 +1,6 @@
+.info{
+    margin-bottom: 200px;
+}
 .info .jumbotron p{
     text-align: center;
     font-weight: 400;
@@ -38,10 +41,6 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    /* identical to box height */
-
-    /* text-align: center; */
-
     color: #FFFFFF;
 }
 
@@ -54,11 +53,6 @@
     text-align: center;
 
     color: #BCF8DE;
-}
-
-
-.token--details--box--heading{
-    
 }
 
 @media(max-width: 800px) {
@@ -85,5 +79,8 @@
     }
     .info .token--details--box{
         flex: 100%;
+    }
+    .token--details--box--desc{
+        font-size: 24px;
     }
 }

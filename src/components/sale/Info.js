@@ -38,9 +38,9 @@ function Info(){
                             <div className="token--details--box--desc">00</div>
                         </div>
                     </div>
-                    <Form />
                 </div>
                 <div className="separate"></div>
+                <Form />
             </div>
             <div className="separate"></div>
         </section>
