@@ -1,5 +1,6 @@
 import "./One.css";
 import phoneOnHand from "../../images/icon_hand_holding_phone6 1.png"
+import { FaDiscord } from "react-icons/fa";
 
 function One(props) {
     return (
@@ -10,7 +11,7 @@ function One(props) {
                     <p>A social-fi and a game-fi infused Web3 lifestyle app. It makes it possible for players to make a lot of money while they sleep or ignore their phones.</p>
                     <div>
                         <a href={props.url.docs} className="btn btn--default">Buy Token</a>
-                        <a href={props.url.docs} className="btn btn--light">Need help? Join Discord</a>
+                        <a href={props.url.social.discord} className="btn btn--light">Need help? Join Discord <FaDiscord /> </a>
                     </div>
                 </div>
                 <div className="right">
