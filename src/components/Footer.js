@@ -9,10 +9,10 @@ function Footer(props) {
                 <h1>Contact Us</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a</p>
                 <div className="group--list">
-                    <div className="group--box"><a href={props.url.social.github} rel="noreferrer" target="_blank"><FaGithub className="social--icon" /></a></div>
                     <div className="group--box"><a href={props.url.social.twitter} rel="noreferrer" target="_blank"><FaTwitter className="social--icon" /></a> </div>
                     <div className="group--box"><a href={props.url.social.discord} rel="noreferrer" target="_blank"><FaDiscord className="social--icon" /></a> </div>
                     <div className="group--box"><a href={props.url.social.medium} rel="noreferrer" target="_blank"><FaMediumM className="social--icon" /></a> </div>
+                    <div className="group--box"><a href={props.url.social.github} rel="noreferrer" target="_blank"><FaGithub className="social--icon" /></a></div>
                     <div className="group--box"></div>
                 </div>
             </div>
