@@ -19,7 +19,7 @@ function Home(props) {
             <Featured />
             <Partners />
             <Tokenomics />
-            <Footer />
+            <Footer url={props.url} />
         </>
     )
 }

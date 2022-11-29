@@ -9,7 +9,7 @@ function Sale(props) {
             <One url={props.url} />
             <Timer />
             <Info />
-            <Footer />
+            <Footer url={props.url} />
         </>
     )
 }

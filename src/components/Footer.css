@@ -42,6 +42,17 @@
     width: 75px;
     height: 75px;
     border-radius: 25px;
+    padding: 10px;
+}
+
+.contact .group--box a{
+    text-decoration: none;
+    color: #216B83;
+}
+
+.contact .social--icon{
+    width: 50px;
+    height: 50px;
 }
 
 @media(max-width: 800px){
@@ -66,6 +77,10 @@
     .contact .group--box{
         border-radius: 15px;
         padding: 0;
+        height: 50px;
+    }
+    .social--icon{
+        width: 25px;
         height: 50px;
     }
 }

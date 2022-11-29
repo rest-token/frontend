@@ -10,12 +10,13 @@ const url = {
     sale: "sale",
   },
   social: {
-    medium: "",
-    twitter: ""
+    github: "https://github.com/rest-token",
+    medium: "https://resttoken.medium.com",
+    twitter: "https://twitter.com/resttoken",
+    discord: "https://discord.gg/vuTBD2fA"
   },
   docs: "https://docs.resttoken.app",
   pitchDeck: "",
-  whitepaper: "",
 }
 
 function App() {
