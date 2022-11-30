@@ -13,7 +13,6 @@ function Footer(props) {
                     <div className="group--box"><a href={props.url.social.discord} rel="noreferrer" target="_blank"><FaDiscord className="social--icon" /></a> </div>
                     <div className="group--box"><a href={props.url.social.medium} rel="noreferrer" target="_blank"><FaMediumM className="social--icon" /></a> </div>
                     <div className="group--box"><a href={props.url.social.github} rel="noreferrer" target="_blank"><FaGithub className="social--icon" /></a></div>
-                    <div className="group--box"></div>
                 </div>
             </div>
             <div className="right">
