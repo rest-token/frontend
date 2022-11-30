@@ -31,8 +31,21 @@
     margin-top: 50px;
 }
 
+.restmode p{
+    padding-inline: 100px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+}
+
 @media(max-width: 800px){
     .restmode .group--list{
         gap: 200px;
+    }
+    .restmode p{
+        padding-inline: 0;
+        font-size: 18px;
     }
 }
