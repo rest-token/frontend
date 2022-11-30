@@ -23,12 +23,17 @@
 
 .one .right{
     flex: 50%;
+    text-align: center;
+    margin: auto;
 }
 
 .one .right .image--box{
     background: linear-gradient(180deg, #FFFDC3 0%, rgba(255, 253, 195, 0) 100%);
     transform: rotate(135deg);
     border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin-left: 100px;
 }
 
 .one .right .image--box img{
