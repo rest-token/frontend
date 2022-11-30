@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 const url = {
   pages: {
     home: "/",
-    sale: "sale",
+    sale: "/sale",
   },
   social: {
     github: "https://github.com/rest-token",

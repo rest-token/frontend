@@ -21,7 +21,8 @@ function Navbar(props) {
             x.style.position = 'absolute';
             x.style.display = 'flex';
             x.style.flexDirection = 'column';
-            x.style.left = '33%'
+            x.style.gap = '5px';
+            x.style.left = '33%';
         } else {
             x.classList.remove('responsive')
             x.style.display = 'none';
@@ -34,9 +35,11 @@ function Navbar(props) {
     }
 
     function checkBodyClickForMenu() {
-        $(".menu--link").click(() => {
-            handleMenu()
-        })
+        if($(window).width() < 801) {
+            $(".menu--link").click(() => {
+                handleMenu()
+            })
+        }
     }
 
     checkBodyClickForMenu()
@@ -47,8 +50,10 @@ function Navbar(props) {
                 <img src={logo} className="nav--logo" alt="logo" />
             </Link>
             <div className="nav--menu" id="nav--menu">
-                {route !== '/sale' && <Link to={props.url.pages.sale} className="btn btn--default menu--link">Pre-Sale</Link>}
-                <a href={ props.url.docs } rel="noreferrer" target="_blank" className="btn btn--light menu--link" >Documentation</a>
+                <Link to={props.url.pages.home} className="btn btn--default menu--link">Home</Link>
+                <a href={props.url.pitchdeck} className="btn btn--default menu--link">Pitchdeck</a>
+                <Link to={props.url.pages.sale} className="btn btn--default menu--link">Pre-Sale</Link>
+                <a href={ props.url.docs } rel="noreferrer" target="_blank" className="btn btn--default menu--link" >Documentation</a>
             </div>
             <img src={menu} alt="..." className="icon" id="menu--icon" onClick={handleMenu} />
         </nav>
