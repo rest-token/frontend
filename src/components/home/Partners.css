@@ -7,6 +7,20 @@
     text-align: center;
 }
 
+.partners .group--box{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.partners .group--box img{
+    max-width: 100%;
+}
+
+.partners .cloudflare img{
+    margin-top: 30%;
+}
+
 @media(max-width: 800px){
     .partners p{
         padding: 0;
