@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-top: 20px;
 }
 
 .form input{
@@ -19,6 +20,19 @@
     position: relative;
     width: 50%;
     margin: auto;
+    margin-bottom: 20px;
+}
+
+.form .cardano--amount--box{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+.form .rest--amount--box{
+    display: flex;
+    width: 50%;
+    margin: auto;
 }
 
 .form #address{
@@ -32,6 +46,44 @@
     padding-inline: 25px;
     right: -10px;
     top: -5px;
+}
+
+.form .cardano--amount--box input{
+    flex: 85%;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.form .cardano--logo{
+    flex: 15%;
+    background-color: #0070B9;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: center;
+}
+
+.form .cardano--logo img{
+    max-width: 30px;
+    margin-top: 10px;
+}
+
+.form .rest--amount--box input{
+    flex: 85%;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.form .rest--logo{
+    flex: 15%;
+    background-color: #98D7C9;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: center;
+}
+
+.form .rest--logo img{
+    max-width: 35px;
+    margin-top: 10px;
 }
 
 .polygon--box{
@@ -62,6 +114,16 @@
         padding-block: 20px;
     }
     .form input{
+        width: 100%;
+        font-size: 16px;
+    }
+    .form .address--box{
+        width: 100%;
+    }
+    .form .cardano--amount--box{
+        width: 100%;
+    }
+    .form .rest--amount--box{
         width: 100%;
     }
 }
