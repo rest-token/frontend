@@ -15,6 +15,24 @@
     outline: none;
 }
 
+.form .address--box{
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+.form #address{
+    width: 100%;
+    position: relative;
+}
+
+.form #copy-address{
+    position: absolute;
+    border-radius: 30px;
+    padding-inline: 25px;
+    right: -10px;
+    top: -5px;
+}
 
 .polygon--box{
     display: flex;
