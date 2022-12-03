@@ -56,6 +56,9 @@
         flex-direction: column;
         gap: 50px
     }
+    .screen{
+        width: 100%;
+    }
     .after--rest--mode{
         position: inherit;
     }
@@ -66,8 +69,8 @@
     .after--rest--mode::after{
         position: static;
         margin-left: 250px;
-        margin-top: -2200px;
-        margin-bottom: 1680px;
+        margin-top: -2500px;
+        margin-bottom: 1700px;
     }
     .description{
         width: 100%;
