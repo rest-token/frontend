@@ -8,7 +8,7 @@ function Hero(props) {
         <section className="hero">
             <div className="hero--left">
                 <img src={restEase} alt="hero" className="hero--image" />
-                <p className="hero--text">REST is a social-fi and a game-fi infused Web3 lifestyle app. It makes it possible for players to make a lot of money while they sleep or ignore their phones.</p>
+                <p className="hero--text">REST, a social-fi and a game-fi infused Web3 lifestyle app that rewards users when they they put on DND on their phones</p>
                 <Link to={props.url.pages.pitchDeck} className="btn btn--default">Pitch Deck</Link>
             </div>
             <div className="hero--right">
