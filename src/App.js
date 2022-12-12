@@ -16,7 +16,7 @@ const url = {
     discord: "https://discord.gg/vuTBD2fA"
   },
   docs: "https://docs.resttoken.app",
-  pitchDeck: "",
+  pitchDeck: "https://docs.google.com/presentation/d/1Thg-pBqqK5hLTVdR5bo6cI53kCbjZZjByboFt3hLBDk/edit#slide=id.p",
 }
 
 function App() {
