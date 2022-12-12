@@ -41,7 +41,7 @@ function Navbar(props) {
             </Link>
             <div className="nav--menu" id="nav--menu">
                 <Link to={props.url.pages.home} className="menu--link" onClick={checkBodyClickForMenu}>Home</Link>
-                <a href={props.url.pitchdeck} className="menu--link" onClick={checkBodyClickForMenu}>Pitchdeck</a>
+                <a href={props.url.pitchdeck} rel="noreferrer" target="_blank" className="menu--link" onClick={checkBodyClickForMenu}>Pitchdeck</a>
                 { route !== '/sale' && <Link to={props.url.pages.sale} className="menu--link" onClick={checkBodyClickForMenu}>Pre-Sale</Link>}
                 <a href={ props.url.docs } rel="noreferrer" target="_blank" className="menu--link" onClick={checkBodyClickForMenu}>Documentation</a>
             </div>
