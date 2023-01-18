@@ -7,7 +7,7 @@ function Restmode(props) {
     return (
         <section className="restmode">
             <h2 className="title">Restmodes</h2>
-            <p>DOWNLOAD REST APP , PUT YOUR SCREEN ON RESTMODE AND START EARNING</p>
+            <p>DOWNLOAD RESTUP APP , PUT YOUR SCREEN ON RESTMODE AND START EARNING</p>
             <div className="group--list">
                 <div className="group--box group--box--btn--bg">
                     <img src={phoneLeft} alt="..." className="group--box--image group--box--image--left"  />

@@ -31,8 +31,8 @@ function DownloadApp(){
         <>
             <section className="downloadapp">
                 <div className="left">
-                    <h1>Download the REST APP</h1>
-                    <p>REST app will be  made available on both Android and iOS mobile devices. The program, however, will have integration with both Google Health and Apple Health. This implies there will be an integration with smartwatches and other wearable devices to enhance tracking accuracy.</p>
+                    <h1>Download the RESTUP APP</h1>
+                    <p>RESTUP app will be  made available on both Android and iOS mobile devices. The program, however, will have integration with both Google Health and Apple Health. This implies there will be an integration with smartwatches and other wearable devices to enhance tracking accuracy.</p>
                     <button className="btn btn--light" onClick={openModal}>Download APP</button>
                 </div>
                 <div className="right">

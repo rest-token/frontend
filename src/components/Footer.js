@@ -7,7 +7,7 @@ function Footer(props) {
         <section className="contact">
             <div className="left">
                 <h1>Contact Us</h1>
-                <p>REST is a social-fi and a game-fi infused Web3 lifestyle app. It makes it possible for players to make a lot of money while they sleep or ignore their phones.</p>
+                <p>RESTUP is a social-fi and a game-fi infused Web3 lifestyle app. It makes it possible for players to make a lot of money while they sleep or ignore their phones.</p>
                 <div className="group--list">
                     <div className="group--box"><a href={props.url.social.twitter} rel="noreferrer" target="_blank"><FaTwitter className="social--icon" /></a> </div>
                     <div className="group--box"><a href={props.url.social.discord} rel="noreferrer" target="_blank"><FaDiscord className="social--icon" /></a> </div>

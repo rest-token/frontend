@@ -37,7 +37,7 @@ function AfterRestMode() {
                     <img src={screen3} alt="..." className="screen" />
                     <img src={screen1} alt="..." className="screen" />
                 </div>
-                <div className="description">To enter the REST universe, users must first purchase an NFT within the application. Once a user has acquired their first NFT, they can immediately begin earning in-game currency, leveling up their NFTs, and trading NFT assets on the market.</div>
+                <div className="description">To enter the RESTUP universe, users must first purchase an NFT within the application. Once a user has acquired their first NFT, they can immediately begin earning in-game currency, leveling up their NFTs, and trading NFT assets on the market.</div>
                 <div className="download--app">
                     <button className="btn btn--default" onClick={openModal}>Download App</button>
                 </div>
