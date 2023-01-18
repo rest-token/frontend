@@ -15,7 +15,7 @@ const url = {
     twitter: "https://twitter.com/resttoken",
     discord: "https://discord.gg/vuTBD2fA"
   },
-  docs: "https://docs.resttoken.app",
+  docs: "https://docs.restuptoken.com",
   pitchDeck: "https://docs.google.com/presentation/d/1Thg-pBqqK5hLTVdR5bo6cI53kCbjZZjByboFt3hLBDk/edit#slide=id.p",
 }
 
