@@ -7,7 +7,7 @@ function One(props) {
         <section className="one">
             <div className="jumbotron">
                 <div className="left">
-                    <h1>Participate in the REST presale to join the ecosystem's early adopters.</h1>
+                    <h1>Participate in the RESTUP presale to join the ecosystem's early adopters.</h1>
                     <p>A social-fi and a game-fi infused Web3 lifestyle app. It makes it possible for players to make a lot of money while they sleep or ignore their phones.</p>
                     <div>
                         <a href={props.url.docs} className="btn btn--default">Buy Token</a>

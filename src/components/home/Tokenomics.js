@@ -5,7 +5,7 @@ function Tokenomics() {
     return (
         <section className="tokenomics">
             <h2 className="title">Tokenomics</h2>
-            <p>To ensure that the RESTUP ecosystem is genuine, investor-focused and governed by the community, we will issue a maximum of 500,000,000,000  $REST tokens, which will be distributed fairly.With the user at the center of the RESTUP ecosystem, we will be able to ensure that. </p>
+            <p>To ensure that the RESTUP ecosystem is genuine, investor-focused and governed by the community, we will issue a maximum of 500,000,000,000  $RESTUP tokens, which will be distributed fairly.With the user at the center of the RESTUP ecosystem, we will be able to ensure that. </p>
             <ul className="token--data--list">
                 <li>token name - restup token</li>
                 <li>total supply - 500,000,000,000</li>

@@ -9,7 +9,7 @@ function Form(){
     const min = 50;
     const max = 5000;
     const [cardano, setCardano] = useState(0);
-    const [rest, setRest] = useState("Amount of $REST you will receive");
+    const [rest, setRest] = useState("Amount of $RESTUP you will receive");
     const address = "address";
 
     function handleInput(event) {
@@ -17,9 +17,9 @@ function Form(){
         setCardano(cardano_amount);
 
         if (cardano_amount > 49 && cardano_amount < 5000) {
-            setRest((cardano * sale_price).toLocaleString() + " $REST");
+            setRest((cardano * sale_price).toLocaleString() + " $RESTUP");
         } else {
-            setRest("Amount of $REST you will receive");
+            setRest("Amount of $RESTUP you will receive");
         }
     }
 
@@ -63,7 +63,7 @@ function Form(){
                 <div className="rest--logo">
                     <img src={restHalfLogo} alt="..." />
                 </div>
-                <input type="text" value={rest} placeholder="Amount of $REST you will receive" readOnly />
+                <input type="text" value={rest} placeholder="Amount of $RESTUP you will receive" readOnly />
             </div>
             
         </section>
