@@ -6,7 +6,7 @@ import "./Restmode.css";
 function Restmode(props) {
     return (
         <section className="restmode">
-            <h2 className="title">A Sneak Peak Of Restup App (Development in progress)</h2>
+            <h2 className="title">Restmodes</h2>
             <p>DOWNLOAD RESTUP APP , PUT YOUR SCREEN ON RESTMODE AND START EARNING</p>
             <div className="group--list">
                 <div className="group--box group--box--btn--bg">

@@ -32,6 +32,7 @@ function AfterRestMode() {
     return (
         <>
             <section className="after--rest--mode">
+              <h2 className="title">A Sneak Peak Of Restup App (Development in progress)</h2>
                 <div className="mobile--list">
                     <img src={screen2} alt="..." className="screen" />
                     <img src={screen3} alt="..." className="screen" />
