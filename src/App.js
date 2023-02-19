@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./pages/Home";
 import Sale from "./pages/Sale";
 import Navbar from "./components/Navbar";
+import Web3 from "./Web3";
 
 const url = {
   pages: {
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route path={url.pages.home} element={<Home url={url} />} />
           <Route path={url.pages.sale} element={<Sale url={url} />} />
+          <Route path="/web3" element={<Web3 />} />
         </Routes>
       </main>
     </Router>
